@@ -1,4 +1,29 @@
 jQuery(document).ready(function () {
+    jQuery('.slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        arrows:false,
+    });
+});
+
+var scrollTop = 0;
+jQuery(document).ready(function() {
+    jQuery(window).on('scroll', function(){
+        scrollTop = jQuery(window).scrollTop();
+        // console.log(scrollTop)
+        if(scrollTop > 10){
+            jQuery('#return_top').addClass('active')
+        }
+        else {
+            jQuery('#return_top').removeClass('active')
+        }
+    });
+    //use scrollTop here...
+});
+jQuery(document).ready(function () {
 
     var header_message_height = 0;
     if (jQuery('#header_message').length) {

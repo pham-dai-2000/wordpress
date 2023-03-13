@@ -11,7 +11,7 @@
 
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html class="pc" <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +25,7 @@
 </head>
 
 <body id="body"
-      class="home page-template-default page page-id-39 page_header_width_type1 use_header_fix use_mobile_header_fix">
+      class="<?= is_front_page() ? 'home' :'' ?> page-template-default page-id-39 page_header_width_type1 use_header_fix use_mobile_header_fix">
 <div id="container">
     <header id="header" class="animate">
         <div id="header_logo">
@@ -547,3 +547,9 @@
             </div>
         </div>
     </header>
+
+    <div id="side_button" class="right animate" style="opacity: 1">
+        <div class="item num1 side_button_icon_tel"><a href="tel:03-5876-3915"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TEL</font></font></a></div>
+        <div class="item num2 side_button_icon_calendar"><a href="https://tl-appt.com/reserve/4fPRseKsyd/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RESERVE</font></font></a></div>
+        <div class="item num3 side_button_icon_mail"><a href="/contact/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTACT</font></font></a></div>
+    </div>

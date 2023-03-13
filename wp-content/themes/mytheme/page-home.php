@@ -8,11 +8,6 @@
 get_header();
 ?>
 <main id="primary" class="site-main">
-    <div id="side_button" class="right animate" style="opacity: 1">
-        <div class="item num1 side_button_icon_tel"><a href="tel:03-5876-3915"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TEL</font></font></a></div>
-        <div class="item num2 side_button_icon_calendar"><a href="https://tl-appt.com/reserve/4fPRseKsyd/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RESERVE</font></font></a></div>
-        <div class="item num3 side_button_icon_mail"><a href="/contact/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTACT</font></font></a></div>
-    </div>
     <div class="header_group" >
         <div id="header_slider" class="slider">
             <div class="item item1">
@@ -1698,40 +1693,6 @@ get_header();
 
     </div>
 </main><!-- #main -->
-
 <!--//get_sidebar();-->
-</div>
 <?php get_footer() ?>
-<div id="return_top" class="">
-    <a href="#body"><span></span></a>
-</div>
 </body>
-<script type="text/javascript">
-    jQuery(document).ready(function () {
-        jQuery('.slider').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 4000,
-            arrows:false,
-        });
-    });
-
-    var scrollTop = 0;
-    jQuery(document).ready(function() {
-        jQuery(window).on('scroll', function(){
-            scrollTop = jQuery(window).scrollTop();
-            // console.log(scrollTop)
-            if(scrollTop > 10){
-                jQuery('#return_top').addClass('active')
-            }
-            else {
-                jQuery('#return_top').removeClass('active')
-            }
-        });
-
-
-        //use scrollTop here...
-    });
-</script>

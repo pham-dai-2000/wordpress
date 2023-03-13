@@ -1,0 +1,99 @@
+#header {
+  background: #ffffff;
+}
+
+#page-header {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  background: url(https://wakuwakuseikotsu.jp/w-wp/wp-content/uploads/2021/03/about-01.jpeg) no-repeat center top;
+  background-size: cover;
+
+  .title {
+    z-index: 1;
+    font-size: 28px;
+    color: #ffffff;
+    opacity: 1;
+    display: block;
+    position: relative;
+  }
+
+  .sub-title {
+    font-size: 16px;
+    color: #ffffff;
+    background: #00a7ce;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+    text-align: center;
+    .block-elem1 {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+   .overlay {
+     width: 100%;
+     height: 100%;
+     z-index: 0;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     background: rgba(0, 0, 0, 0.3);
+   }
+}
+
+#page-header-inner {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  -webkit-align-items: center;
+}
+
+.rich-font-type3 {
+  font-family: "Times New Roman"
+}
+
+.rich_font_type2 {
+  font-family: Arial, "Hiragino Sans";
+  font-weight: 500;
+}
+#bread-crumb {
+  width:1200px;
+  margin: 0 auto;
+  li {
+    display: inline;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #00a7ce;
+    &.home  {
+      a {
+        width: 16px;
+      }
+      a:before {
+        font-family: 'Font Awesome 5 Pro';
+        content: '\f015';
+        font-size: 13px;
+        margin-right: 19px;
+      }
+      a:after {
+        font-family: 'Font Awesome 5 Pro';
+        content: '\f054';
+        font-size: 10px;
+        margin-right: 19px;
+      }
+    }
+    a {
+      height: 69px;
+      line-height: 70px;
+    }
+  }
+
+}
