@@ -9,8 +9,6 @@
   position: relative;
   overflow: hidden;
   width: 1200px;
-  background: url(https://wakuwakuseikotsu.jp/w-wp/wp-content/uploads/2021/03/about-01.jpeg) no-repeat center top;
-  background-size: cover;
 
   .title {
     z-index: 1;
@@ -62,7 +60,7 @@
   font-family: "Times New Roman"
 }
 
-.rich_font_type2 {
+.rich-font-type2 {
   font-family: Arial, "Hiragino Sans";
   font-weight: 500;
 }
@@ -185,12 +183,10 @@
     width: 100%;
     height: 400px;
     position: relative;
-    background: url(https://wakuwakuseikotsu.jp/w-wp/wp-content/uploads/2021/03/wakuwaku_kv.jpg) no-repeat center top;
     display: -webkit-box;
     display: -webkit-flex;
     align-items: center;
     justify-content: center;
-    background-size: cover;
   }
 
   .catch {
@@ -361,6 +357,10 @@
 iframe {
   max-width: 100%;
 }
-
+.desc-treatment{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 
 

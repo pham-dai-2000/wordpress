@@ -8,7 +8,7 @@
 get_header();
 ?>
 <main id="primary" class="site-main">
-    <div id="page-header">
+    <div id="page-header" style="background: url(https://wakuwakuseikotsu.jp/w-wp/wp-content/uploads/2021/03/about-01.jpeg) no-repeat center top; background-size: cover;">
         <div id="page-header-inner">
             <h1 class="title rich-font-type3">About our hospital</h1>
             <h2 class="sub-title rich-font-type2">
@@ -50,7 +50,7 @@ get_header();
                     Concept
                 </h3>
                 <div class="content-area">
-                    <div class="main-image">
+                    <div class="main-image" style="background: url(https://wakuwakuseikotsu.jp/w-wp/wp-content/uploads/2021/03/wakuwaku_kv.jpg) no-repeat center top; background-size: cover;">
                         <h3 class="catch rich-font-type3 type2">
                             We offer <br> exciting treatments .</h3>
                         <div class="overlay"></div>

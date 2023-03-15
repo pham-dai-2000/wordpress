@@ -61,7 +61,7 @@
                 </li>
                 <li id="menu-item-34"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34 megamenu_parent"><a class="atv-color"
-                            href="/treatment/" class="megamenu_button" data-megamenu="js-megamenu34"><font
+                            href="http://localhost/project/wordpress/treatment/" class="megamenu_button" data-megamenu="js-megamenu34"><font
                                 style="vertical-align: inherit;"><font style="vertical-align: inherit;">Treatment
                                 guide</font></font></a></li>
                 <li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 "><a class="atv-color"

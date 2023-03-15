@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba596a5d-307a-4471-8cfc-19622bbe1650" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/treatment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/page-treatment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/js/animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/js/animate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/page-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/page-about.php" afterDir="false" />
     </list>
@@ -64,7 +64,7 @@
       <workItem from="1678676158458" duration="2530000" />
       <workItem from="1678678725358" duration="18322000" />
       <workItem from="1678757659342" duration="25088000" />
-      <workItem from="1678843980024" duration="3424000" />
+      <workItem from="1678843980024" duration="16919000" />
     </task>
     <servers />
   </component>
