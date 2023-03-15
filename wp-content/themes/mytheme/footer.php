@@ -190,7 +190,9 @@
     </footer>
 </footer><!-- #colophon -->
 </div><!-- #page -->
-
+<div id="return_top" class="">
+    <a href="#body"><span></span></a>
+</div>
 <?php wp_footer(); ?>
 
 </body>

@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba596a5d-307a-4471-8cfc-19622bbe1650" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/body.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/body.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/footer.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/header.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/style_pro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/js/animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/js/animate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/page-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/page-about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/page-home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/Downloads/code/WebWordpress&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,7 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1678676156609</updated>
       <workItem from="1678676158458" duration="2530000" />
-      <workItem from="1678678725358" duration="17436000" />
+      <workItem from="1678678725358" duration="18322000" />
+      <workItem from="1678757659342" duration="25088000" />
+      <workItem from="1678843980024" duration="3424000" />
     </task>
     <servers />
   </component>

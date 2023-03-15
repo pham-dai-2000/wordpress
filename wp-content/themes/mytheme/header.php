@@ -48,7 +48,7 @@
             <ul id="menu-1" class="menu">
                 <li id="menu-item-33"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-33 ">
-                    <a href="http://localhost/project/wordpress/about/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">About
+                    <a class="atv-color" href="http://localhost/project/wordpress/about/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">About
                                 our hospital</font></font></a>
                     <ul class="sub-menu">
                         <li id="menu-item-110"
@@ -60,25 +60,25 @@
                     </ul>
                 </li>
                 <li id="menu-item-34"
-                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34 megamenu_parent"><a
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34 megamenu_parent"><a class="atv-color"
                             href="/treatment/" class="megamenu_button" data-megamenu="js-megamenu34"><font
                                 style="vertical-align: inherit;"><font style="vertical-align: inherit;">Treatment
                                 guide</font></font></a></li>
-                <li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 "><a
+                <li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 "><a class="atv-color"
                             href="/voice/"><font style="vertical-align: inherit;"><font
                                     style="vertical-align: inherit;">Customer's voice</font></font></a></li>
-                <li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36 "><a
+                <li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36 "><a class="atv-color"
                             href="/store/"><font style="vertical-align: inherit;"><font
                                     style="vertical-align: inherit;">Store Guide</font></font></a></li>
-                <li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a
+                <li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a class="atv-color"
                             href="/faq/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FAQ</font></font></a>
                 </li>
                 <li id="menu-item-75"
-                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75 megamenu_parent"><a
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75 megamenu_parent"><a class="atv-color"
                             href="/blog/" class="megamenu_button" data-megamenu="js-megamenu75"><font
                                 style="vertical-align: inherit;"><font
                                     style="vertical-align: inherit;">Blog</font></font></a></li>
-                <li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76 "><a
+                <li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76 "><a class="atv-color"
                             href="/contact/"><font style="vertical-align: inherit;"><font
                                     style="vertical-align: inherit;">Inquiry</font></font></a></li>
             </ul>

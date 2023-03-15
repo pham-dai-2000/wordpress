@@ -10,7 +10,9 @@ body, input, textarea {
   position: relative;
   height: 100%;
 }
-
+.active-white{
+  background-color: white !important;
+}
 div {
   margin: 0;
   padding: 0;
@@ -52,7 +54,9 @@ body {
     #global_menu > ul > li > a {
       color: #0570bb;
     }
-
+    #global_menu > ul > li > a:hover {
+      color: #00a7ce !important;
+    }
     #menu_button span {
       background: #0570bb;
     }
@@ -61,6 +65,9 @@ body {
       opacity: 0;
     }
   }
+}
+.active-color{
+    color: #000000 !important;
 }
 
 #header_logo {

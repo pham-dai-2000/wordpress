@@ -6,6 +6,10 @@ jQuery(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 4000,
         arrows:false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        fade: true,
+        speed: 1000,
     });
 });
 
@@ -80,28 +84,44 @@ jQuery(document).ready(function () {
     });
 });
 jQuery(document).ready(function () {
-    // Thêm sự kiện hover cho menu item 1
+    // Thêm sự kiện hover cho menu item 2
     jQuery('#menu-1 #menu-item-34').hover(function () {
         jQuery('#js-megamenu34').addClass('active_mega_menu');
+        jQuery('#header').addClass('active-white');
+        jQuery('.atv-color').addClass('active-color');
     }, function () {
         jQuery('#js-megamenu34').hover(function () {
             jQuery('#js-megamenu34').addClass('active_mega_menu');
+            jQuery('#header').addClass('active-white');
+            jQuery('.atv-color').addClass('active-color');
         }, function () {
             jQuery('#js-megamenu34').removeClass('active_mega_menu');
+            jQuery('#header').removeClass('active-white');
+            jQuery('.atv-color').removeClass('active-color');
         });
         jQuery('#js-megamenu34').removeClass('active_mega_menu');
+        jQuery('#header').removeClass('active-white');
+        jQuery('.atv-color').removeClass('active-color');
 
     });
-    // Thêm sự kiện hover cho menu item 3
+    // Thêm sự kiện hover cho menu item 6
     jQuery('#menu-1 #menu-item-75').hover(function () {
         jQuery('#js-megamenu75').addClass('active_mega_menu');
+        jQuery('#header').addClass('active-white');
+        jQuery('.atv-color').addClass('active-color');
     }, function () {
         jQuery('#js-megamenu75').hover(function () {
             jQuery('#js-megamenu75').addClass('active_mega_menu');
+            jQuery('#header').addClass('active-white');
+            jQuery('.atv-color').addClass('active-color');
         }, function () {
             jQuery('#js-megamenu75').removeClass('active_mega_menu');
+            jQuery('#header').removeClass('active-white');
+            jQuery('.atv-color').removeClass('active-color');
         });
         jQuery('#js-megamenu75').removeClass('active_mega_menu');
+        jQuery('#header').removeClass('active-white');
+        jQuery('.atv-color').removeClass('active-color');
     });
 
     jQuery('#menu-1 #menu-item-33').hover(function () {
@@ -114,4 +134,5 @@ jQuery(document).ready(function () {
         });
         jQuery('.sub-menu').removeClass('active_mega_menu');
     });
+
 });
