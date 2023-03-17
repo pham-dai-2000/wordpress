@@ -113,13 +113,19 @@
   width: 1000px;
   margin: 0 auto;
   position: relative;
+  height: 100%;
 }
 
 #index_news_slider {
-  height: 17px;
+  height: 100%;
   overflow: hidden;
   top: 22px;
   width: 850px;
+  display: flex;
+  align-items: center;
+  a {
+    display: flex;
+  }
 }
 
 .slick-slider {

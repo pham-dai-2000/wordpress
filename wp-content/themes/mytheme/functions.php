@@ -188,3 +188,23 @@ function styles()
 }
 add_action( 'wp_enqueue_scripts', 'styles');
 
+//tạo thêm trường menu mới
+register_nav_menus(
+    array(
+        'headerMenu' => esc_html__('Menu home', 'default'),
+        'subMenu' => esc_html__('Sub menu home', 'default'),
+    )
+
+);
+// thêm class cho logo
+function change_logo_class($html)
+{
+
+    $html = str_replace('custom-logo-link', 'c-logo', $html);
+    $html = str_replace('custom-logo', 'c-logo__img', $html);
+    return $html;
+}
+
+add_filter('get_custom_logo', 'change_logo_class');
+
+

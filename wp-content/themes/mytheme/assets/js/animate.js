@@ -105,7 +105,7 @@ jQuery(document).ready(function () {
 
     });
     // Thêm sự kiện hover cho menu item 6
-    jQuery('#menu-1 #menu-item-75').hover(function () {
+    jQuery('#menu-1 #menu-item-38').hover(function () {
         jQuery('#js-megamenu75').addClass('active_mega_menu');
         jQuery('#header').addClass('active-white');
         jQuery('.atv-color').addClass('active-color');
