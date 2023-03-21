@@ -40,19 +40,19 @@ $menus = menulv('headerMenu');
         <?php
         $temp = 0;
         foreach ($menus as $key => $navItem) {
+           echo count($menus)
             ?>
             <li id="menu-item-<?= 33 +  $temp++ ?>"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-33 ">
                 <a class="atv-color" href="<?= $navItem->url ?>"><?php echo $navItem->title ?></a>
                 <?php if ($navItem->child_items && $navItem->ID == 49) { ?>
-                        <ul class="sub-menu">
-                            <li id="menu-item-110"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110 "><a
-                                        href="https://wakuwakuseikotsu.jp/about/about-1/"></a></li>
-                            <li id="menu-item-120"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120 "><a
-                                        href="https://wakuwakuseikotsu.jp/about/about-2/"></a></li>
-                        </ul>
+                    <ul class="sub-menu">
+                        <?php foreach ( $navItem->child_items as $key => $navItemChild) { ?>
+                        <li id="menu-item-110"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110 "><a
+                                    href="https://wakuwakuseikotsu.jp/about/about-1/"><?php echo $navItemChild->title ?></a></li>
+                        <?php } ?>
+                    </ul>
                 <?php } ?>
             </li>
         <?php } ?>

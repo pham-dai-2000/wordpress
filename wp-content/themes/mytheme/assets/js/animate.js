@@ -123,16 +123,24 @@ jQuery(document).ready(function () {
         jQuery('#header').removeClass('active-white');
         jQuery('.atv-color').removeClass('active-color');
     });
-
+    // Thêm sự kiện hover cho menu item 1
     jQuery('#menu-1 #menu-item-33').hover(function () {
-        jQuery('.sub-menu').addClass('active_mega_menu');
+        jQuery('.sub-menu').addClass('active');
+        jQuery('#header').addClass('active-white');
+        jQuery('.atv-color').addClass('active-color');
     }, function () {
         jQuery('.sub-menu').hover(function () {
-            jQuery('.sub-menu').addClass('active_mega_menu');
+            jQuery('.sub-menu').addClass('active');
+            jQuery('#header').addClass('active-white');
+            jQuery('.atv-color').addClass('active-color');
         }, function () {
-            jQuery('.sub-menu').removeClass('active_mega_menu');
+            jQuery('.sub-menu').removeClass('active');
+            jQuery('#header').removeClass('active-white');
+            jQuery('.atv-color').removeClass('active-color');
         });
-        jQuery('.sub-menu').removeClass('active_mega_menu');
+        jQuery('.sub-menu').removeClass('active');
+        jQuery('#header').removeClass('active-white');
+        jQuery('.atv-color').removeClass('active-color');
     });
 
 });

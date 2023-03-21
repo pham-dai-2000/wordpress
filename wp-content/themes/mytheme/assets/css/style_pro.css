@@ -141,6 +141,19 @@ body.layout_type3 #main_col { width:1000px; float:none; margin-right:auto; margi
 .megamenu_service_list.active_mega_menu {
   opacity:1; pointer-events:initial; top:89px;
 }
+.sub-menu {
+  opacity:0; pointer-events:none; overflow:hidden; width:100%; position:absolute; top:109px; z-index:500; left:0; right:0; margin:auto;
+}
+.sub-menu a {
+  background: #007995 !important;
+}
+.sub-menu li a:hover {
+  color: #ffffff;
+  background: #00a7ce !important;
+}
+.sub-menu.active {
+  opacity:1; pointer-events:initial; top:89px; display: block !important;
+}
 .megamenu_service_list_inner { width:1000px; height:300px; position:relative; margin:0 auto; }
 .megamenu_service_list .headline { height:74px; line-height:75px; color:#fff; font-size:14px; text-align:center; }
 .megamenu_service_list .link_button { position:absolute; right:0px; top:0px; }

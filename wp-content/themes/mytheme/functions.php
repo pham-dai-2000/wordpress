@@ -193,6 +193,7 @@ register_nav_menus(
     array(
         'headerMenu' => esc_html__('Menu home', 'default'),
         'subMenu' => esc_html__('Sub menu home', 'default'),
+        'subMenu1' => esc_html__('Sub1 menu home', 'default'),
     )
 
 );
@@ -206,5 +207,7 @@ function change_logo_class($html)
 }
 
 add_filter('get_custom_logo', 'change_logo_class');
+
+include_once get_template_directory() . '/custom-elm/home-about.php';
 
 

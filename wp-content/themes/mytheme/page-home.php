@@ -24,8 +24,6 @@ get_header();
                 <div class="image_slider"
                      style="background:url(https://wakuwakuseikotsu.jp/w-wp/wp-content/uploads/2021/03/wakuwaku_kv02.jpeg) no-repeat center center; background-size:cover;"></div>
             </div>
-
-
         </div>
         <div id="index_box_content" class="clearfix slick-initialized slick-slider type1">
 
