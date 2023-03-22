@@ -209,5 +209,10 @@ function change_logo_class($html)
 add_filter('get_custom_logo', 'change_logo_class');
 
 include_once get_template_directory() . '/custom-elm/home-about.php';
+include_once get_template_directory() . '/custom-elm/home-slider.php';
+include_once get_template_directory() . '/custom-elm/home-news.php';
+include_once get_template_directory() . '/custom-elm/home-treatment.php';
+include_once get_template_directory() . '/custom-elm/home-message.php';
+include_once get_template_directory() . '/custom-elm/home-blog.php';
 
 

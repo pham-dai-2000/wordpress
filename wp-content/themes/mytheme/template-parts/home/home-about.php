@@ -6,7 +6,7 @@ $values = vc_param_group_parse_atts($args['arr_item']);
 //$url_link = vc_build_link($args['url']);
 
 echo '<pre>';
-print_r($values);
+//print_r($values);
 //print_r(wp_get_attachment_image( $image_ids[2], 'full' ));
 echo '</pre>';
 //$img_url = '';
@@ -45,21 +45,6 @@ if (isset($args) && $args) { ?>
                                     </a>
                                 </div>
                             <?php } ?>
-                            <!--                        <div class="item slick-slide slick-active" data-slick-index="1" aria-hidden="false"-->
-                            <!--                             style="width: 500px;" tabindex="-1" role="option" aria-describedby="slick-slide11">-->
-                            <!--                            <a class="animate_background clearfix"-->
-                            <!--                               href="http://wakuwakuseikotsu.jp/w-wp/about/about-2" tabindex="0">-->
-                            <!--                                <div class="image_wrap">-->
-                            <!--                                    <div class="image"-->
-                            <!--                                         style="background:url(https://wakuwakuseikotsu.jp/w-wp/wp-content/uploads/2021/03/about-04.jpeg) no-repeat center center; background-size:cover;"></div>-->
-                            <!--                                </div>-->
-                            <!--                                <div class="desc_area">-->
-                            <!--                                    <p class="desc">At Waku Waku Osteopathic Clinic, we provide traffic accident-->
-                            <!--                                        treatment according to symptoms. Please contact us if you feel-->
-                            <!--                                        uncomfortable with your body.</span>-->
-                            <!--                                    </p></div>-->
-                            <!--                            </a>-->
-                            <!--                        </div>-->
                         </div>
                     </div>
 
@@ -67,8 +52,7 @@ if (isset($args) && $args) { ?>
             </div>
 
             <div class="link_button">
-                <a href="/about/">About
-                    our hospital</a>
+                <a href="<?= vc_build_link($args['url_button'])['url'] ?>"><?php echo vc_build_link($args['url_button'])['title'] ?></a>
             </div>
         </div><!-- END .cb_contents_inner -->
     </div>

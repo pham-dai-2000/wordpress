@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba596a5d-307a-4471-8cfc-19622bbe1650" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/custom-elm/home-about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/home/home-about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/custom-elm/home-blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/custom-elm/home-message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/custom-elm/home-news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/custom-elm/home-slider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/custom-elm/home-treatment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/home/home-blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/home/home-message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/home/home-news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/home/home-slider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/home/home-treatment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/style_pro.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/css/style_pro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/js/animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/js/animate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/assets/scss/about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/page-home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/menu/menu-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/menu/menu-home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/menu/menu-homev3.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/menu/menu-homev3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/home/home-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/mytheme/template-parts/home/home-about.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +80,9 @@
       <workItem from="1679016643455" duration="334000" />
       <workItem from="1679017530160" duration="19495000" />
       <workItem from="1679275902542" duration="22705000" />
-      <workItem from="1679362180558" duration="856000" />
+      <workItem from="1679362180558" duration="2137000" />
+      <workItem from="1679365621173" duration="20595000" />
+      <workItem from="1679449263696" duration="21868000" />
     </task>
     <servers />
   </component>
