@@ -45,14 +45,14 @@ if (isset($args) && $args) { ?>
                             </a>
                         </article>
                     <?php } ?>
-                </div><!-- END .service_list -->
+                </div>
                 <div class="link_button">
                     <a href="<?= vc_build_link($args['url_button'])['url'] ?>"><?= vc_build_link($args['url_button'])['title'] ?></a>
                 </div>
                 <div class="overlay" style="background:rgba(255,255,255,0.3)"></div>
                 <div class="bg_image"
                      style="background:url(<?php echo wp_get_attachment_image_src($args['image_background'], "full")[0]  ?>) no-repeat center center; background-size:cover;"></div>
-            </div><!-- END .service_list_wrap -->
+            </div>
 
         </div>
     </div>

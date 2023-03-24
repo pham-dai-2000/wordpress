@@ -200,19 +200,49 @@ register_nav_menus(
 // thêm class cho logo
 function change_logo_class($html)
 {
-
     $html = str_replace('custom-logo-link', 'c-logo', $html);
     $html = str_replace('custom-logo', 'c-logo__img', $html);
     return $html;
 }
 
 add_filter('get_custom_logo', 'change_logo_class');
+//custom-elm page home
+include_once get_template_directory() . '/custom-elm/home/home-about.php';
+include_once get_template_directory() . '/custom-elm/home/home-slider.php';
+include_once get_template_directory() . '/custom-elm/home/home-news.php';
+include_once get_template_directory() . '/custom-elm/home/home-treatment.php';
+include_once get_template_directory() . '/custom-elm/home/home-message.php';
+include_once get_template_directory() . '/custom-elm/home/home-blog.php';
+include_once get_template_directory() . '/custom-elm/home/home-listTreatment.php';
 
-include_once get_template_directory() . '/custom-elm/home-about.php';
-include_once get_template_directory() . '/custom-elm/home-slider.php';
-include_once get_template_directory() . '/custom-elm/home-news.php';
-include_once get_template_directory() . '/custom-elm/home-treatment.php';
-include_once get_template_directory() . '/custom-elm/home-message.php';
-include_once get_template_directory() . '/custom-elm/home-blog.php';
+//custom-elm page about
+include_once get_template_directory() . '/custom-elm/about/about-header.php';
+include_once get_template_directory() . '/custom-elm/about/about-breadCrumb.php';
+include_once get_template_directory() . '/custom-elm/about/about-contentHeader.php';
+include_once get_template_directory() . '/custom-elm/about/about-concept.php';
+include_once get_template_directory() . '/custom-elm/about/about-treatment.php';
+include_once get_template_directory() . '/custom-elm/about/about-company.php';
+include_once get_template_directory() . '/custom-elm/about/about-maps.php';
+
+
+//Tajo ra thêm setting nhập dữ liệu
+if (function_exists('acf_add_options_page')) {
+    acf_add_options_page(array(
+        'page_title' => 'Theme General Settings',
+        'menu_title' => 'Theme Settings',
+        'menu_slug' => 'theme-general-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
+
+}
+function wpn_add_options_page()
+{
+    if (function_exists('acf_add_options_page')) {
+        acf_add_options_page(array('page_title' => 'Theme Settings', 'menu_title' => 'Theme Settings', 'menu_slug' => 'theme-general-settings', 'capability' => 'edit_posts', 'redirect' => false));
+    }
+}
+
+add_action('init', 'wpn_add_options_page');
 
 

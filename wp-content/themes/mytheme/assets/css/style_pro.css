@@ -188,8 +188,8 @@ body.layout_type3 #main_col { width:1000px; float:none; margin-right:auto; margi
   opacity:1; pointer-events:initial; top:89px;
 }
 .megamenu_blog_list_inner { width:1000px; height:300px; margin:0 auto; position:relative; overflow:hidden; }
-.megamenu_blog_slider_wrap { position:relative; width:932px; height:270px; margin:16px 0 0 34px; overflow:hidden;}
-.megamenu_blog_slider { overflow:hidden; width:931px; height:270px; }
+.megamenu_blog_slider_wrap { position:relative; width:932px; height:270px; margin:16px 0 0 34px;}
+.megamenu_blog_slider { width:931px; height:270px; }
 .megamenu_blog_slider .item { height:270px; position:relative; }
 .megamenu_blog_slider .image_link { display:block; background:none; }
 .megamenu_blog_slider .image_wrap { display:block; width:100%; height:148px; position:relative; z-index:1; overflow:hidden; }
@@ -946,13 +946,12 @@ body.layout_type3 #main_col { width:1000px; float:none; margin-right:auto; margi
 .index_access .access_google_map .pb_googlemap_custom-overlay-inner { display: -webkit-box; display: -ms-flexbox; display: flex; position: absolute; top: -116px; left: -50px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 100px !important; height: 100px !important; border-radius: 50%; font-size: 18px; text-align: center; }
 .index_access .access_google_map .pb_googlemap_custom-overlay-inner::after { display: block; position: absolute; right: 0; bottom: -15px; left: 0; width: 0; height: 0; margin: auto; border-width: 16px 5px 0 5px; border-style: solid; content: ""; }
 
-
 /* 記事スライダー */
 .index_post_slider { width:100%; background:#f5f5f5; padding:60px 0; }
 .index_post_slider .post_list_slider_wrap { position:relative; background:#fff; border-bottom:1px solid #ddd; }
 .index_post_slider .post_list_slider_wrap:before { content:''; display:block; width:1px; height:160px; background:#ddd; position:absolute; left:0; top:210px; z-index:2; }
 .index_post_slider .post_list_slider_wrap:after { content:''; display:block; width:1px; height:160px; background:#ddd; position:absolute; right:0; top:210px; z-index:2; }
-.index_post_slider .post_list { overflow:hidden; width:1000px; height:370px; }
+.index_post_slider .post_list { width:1000px; height:370px; }
 .index_post_slider .item { height:370px; position:relative; }
 .index_post_slider .image_link { display:block; background:none; }
 .index_post_slider .image_wrap { display:block; width:100%; height:210px; position:relative; z-index:1; overflow:hidden; }
@@ -1627,7 +1626,7 @@ body.page_header_width_type3 #bread_crumb { padding:0 35px; }
 }
 #footer_inner { width:1000px; margin:0 auto; position:relative; z-index:10; }
 
-
+#footer_inner .service_list a:hover { color: #00a6cc; }
 /* 診療科目一覧 */
 #footer .service_list { text-align:center; color:#fff; }
 #footer .service_list .headline { font-size:16px; font-weight:600; }
@@ -1679,7 +1678,7 @@ body.page_header_width_type3 #bread_crumb { padding:0 35px; }
 #footer_tel .number_area { padding:13px 0 8px; width:280px; position:relative; left:200px; }
 #footer_tel .tel_number { font-size:28px; font-weight:500; }
 #footer_tel .tel_desc { font-size:14px; margin:10px 0 0 0; line-height:1.5; position:relative; }
-#footer_tel .tel_number .icon:before { margin:0 7px 0 0; content:'\e90b'; font-family: "footer_bar"; font-size:22px; color:#00a8c8; position:relative; }
+#footer_tel .tel_number .icon:before { margin:0 7px 0 0; content:'\f879'; font-family: 'Font Awesome 5 Pro';; font-size:22px; color:#00a8c8; position:relative; }
 
 
 /* スケジュール */

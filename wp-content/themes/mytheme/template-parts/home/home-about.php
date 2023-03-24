@@ -2,7 +2,6 @@
 $values = vc_param_group_parse_atts($args['arr_item']);
 //$list_images = explode(',', $values);
 
-
 //$url_link = vc_build_link($args['url']);
 
 echo '<pre>';

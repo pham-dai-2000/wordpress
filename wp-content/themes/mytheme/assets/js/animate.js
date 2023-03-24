@@ -142,5 +142,28 @@ jQuery(document).ready(function () {
         jQuery('#header').removeClass('active-white');
         jQuery('.atv-color').removeClass('active-color');
     });
+});
 
+jQuery(document).ready(function () {
+    jQuery('.megamenu_blog_slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: true
+    });
+});
+jQuery(document).ready(function () {
+    jQuery('.post_list').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: true
+    });
+});
+jQuery(document).ready(function () {
+    jQuery('.post_list').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
 });

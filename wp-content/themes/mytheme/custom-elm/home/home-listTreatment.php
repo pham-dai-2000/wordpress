@@ -1,27 +1,27 @@
 <?php
 
-add_action('vc_before_init', 'blog_home');
+add_action('vc_before_init', 'listTreatment_home');
 // if(!function_exists('')){
 
 // }
-function blog_home()
+function listTreatment_home()
 {
     vc_map(
         array(
-            "name" => "Blog Home",
-            "base" => "vc_latest_blog_home",
+            "name" => "List/Content Treatment Home",
+            "base" => "vc_latest_listTreatment_home",
             "category" => 'Content',
             "allowed_container_element" => 'vc_row',
             'params' => array(
                 array(
                     "type" => "textfield",
-                    "heading" => "Title blog",
-                    "param_name" => "title_blog",
+                    "heading" => "Title list treatment",
+                    "param_name" => "title_list_treatment",
                     "description" => __( "Main title.", "textdomain" )
                 ),
                 array(
                     "type" => "textarea",
-                    "heading" => "Content blog",
+                    "heading" => "Content listTreatment",
                     "param_name" => "content_item",
                     "description" => __( "About Content.", "textdomain" )
                 ),
@@ -50,8 +50,8 @@ function blog_home()
                         ),
                         array(
                             "type" => "textfield",
-                            "heading" => "Date blog",
-                            "param_name" => "date_blog",
+                            "heading" => "Date listTreatment",
+                            "param_name" => "date_listTreatment",
                             "description" => __( "Main title.", "textdomain" )
                         )
                     )
@@ -63,21 +63,21 @@ function blog_home()
 }
 
 
-function vc_latest_blog_home_render($atts, $content = null)
+function vc_latest_listTreatment_home_render($atts, $content = null)
 {
     $args = array(
-        'title_blog' => '',
+        'title_list_treatment' => '',
         'content_item' => '',
         'arr_item' => ''
     );
 
     $params = shortcode_atts($args, $atts);
     ob_start();
-    get_template_part('template-parts/home/home', 'blog', $params);
+    get_template_part('template-parts/home/home', 'listTreatment', $params);
     $cont = ob_get_contents();
     ob_clean();
     ob_end_flush();
     return $cont;
 }
 
-add_shortcode('vc_latest_blog_home', 'vc_latest_blog_home_render');
+add_shortcode('vc_latest_listTreatment_home', 'vc_latest_listTreatment_home_render');

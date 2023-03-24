@@ -14,11 +14,14 @@ echo '</pre>';
 //}
 //print_r($img_url[0]);
 if (isset($args) && $args) { ?>
-    <div id="index_content_builder">
-        <div class="index_post_slider cb_contents num4" style="background:#f0feff;" id="cb_content_4">
+        <div class="index_post_slider cb_contents num5" style="background:#f5f5f5;" id="cb_content_5">
+
             <div class="cb_contents_inner">
-                <h3 class="cb_headline rich_font_type2"><?php echo $args['title_blog'] ?></h3>
+
+                <h3 class="cb_headline rich_font_type2"><?php echo $args['title_list_treatment'] ?></h3>
+
                 <h4 class="cb_catch rich_font_type3"><?php echo $args['content_item'] ?></h4>
+
                 <div class="post_list_slider_wrap">
                     <div class="post_list">
                         <?php foreach ($values as $key => $item) { ?>
@@ -42,16 +45,13 @@ if (isset($args) && $args) { ?>
                                     </h3>
                                     <p class="date">
                                         <time class="entry-date updated" datetime="2022-01-03T17:09:29+09:00">
-                                            <?= $item['date_blog'] ?>
+                                            <?= $item['date_listTreatment'] ?>
                                         </time>
                                     </p>
                                 </div>
                             </article>
                         <?php } ?>
                     </div>
-                </div>
-                <div class="link_button">
-                    <a href="<?= vc_build_link($args['url_button_blog'])['url'] ?>"><?= vc_build_link($args['url_button_blog'])['title'] ?></a>
                 </div>
             </div>
         </div>

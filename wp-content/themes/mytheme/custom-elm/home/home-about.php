@@ -31,12 +31,6 @@ function about_home()
                     "param_name" => "url_button",
                     "description" => __( "Enter description.", "textdomain" )
                 ),
-//                array(
-//                    "type" => "textfield",
-//                    "heading" => "Title About Japan",
-//                    "param_name" => "title_about_jpn",
-//                    "description" => __( "メインタイトル.", "textdomain" )
-//                ),
 
                 array(
                     'type' => 'param_group',
